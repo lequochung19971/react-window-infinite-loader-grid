@@ -11,7 +11,6 @@ const Cell = (props) => {
   const { columnCount, hasNextPage, renderItem, renderLoadingItem } = useInfiniteGridContext();
   const itemIndex = rowIndex * columnCount + columnIndex;
   const cellValue = data[itemIndex];
-  console.log('props', props);
 
   if (cellValue === undefined) {
     return hasNextPage ? (
