@@ -128,7 +128,6 @@ const InfiniteGrid = forwardRef((props, ref) => {
                       style={style}
                       height={window.innerHeight}
                       ref={(element) => {
-                        console.log(element);
                         ref = element;
                         refForWindowScroller.current = element;
                         refForInfinityLoader.current = element;
