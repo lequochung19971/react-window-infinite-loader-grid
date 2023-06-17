@@ -41,7 +41,6 @@ const InfiniteGrid = forwardRef((props, ref) => {
     hasNextPage = true,
     renderItem,
     renderLoadingItem,
-    // height = 500,
   } = props;
   const [state, setState] = useState({
     columnCount,
